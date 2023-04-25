@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>FADEOUT ELEMENTS</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Welcome to satyabama fadeout effects</h1>
+    <button>click</button><br><br>
+    <div id="div1" style="width:80px; height:80px; background-color:blue"></div>
+    <div id="div2" style="width:80px; height:80px; background-color:blueviolet"></div>
+    <div id="div3" style="width:80px; height:80px; background-color: chartreuse"></div>
+    <script>
+        $('button').click(function(){
+            $('#div1').fadeOut();
+            $('#div2').fadeOut(slow);
+            $('#div3').fadeOut(3000);
+        })
+    </script>
+    
+</body>
+</html>

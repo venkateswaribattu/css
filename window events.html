@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Window Events</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+  <style>
+    #box{
+        width: 300px;
+        height: 150px;
+        padding:10px;
+        border: 1px solid blue;
+    }
+  </style>
+</head>
+<body leftmargin="70px">
+    <h1>Welcome to window Events</h1>
+    <div id="box">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum earum nostrum ducimus expedita odit nisi beatae. Quibusdam officiis alias neque facilis consequatur laborum dolorum vero, nam rerum enim iusto laboriosam saepe maxime necessitatibus laudantium hic incidunt repudiandae. Quo ad ut deserunt aperiam. Velit esse molestias modi necessitatibus aperiam officiis itaque, nesciunt minus ab, impedit quidem quisquam ratione rem nam iste! Sed consectetur, pariatur illo nostrum rem natus voluptatum. Dicta, aspernatur. Eius, architecto magnam. Numquam illum rerum similique, odit libero sit illo sed dignissimos sunt ad dolorem culpa amet assumenda, magnam eaque! Vero temporibus placeat ducimus quam aspernatur culpa eius tenetur. ipsum dolor sit amet, consectetur adipisicing elit. Illum adipisci velit magnam cumque maxime iste deleniti, voluptas aut dolorum ducimus obcaecati sunt consequuntur magni modi expedita optio eos molestias id esse! Est pariatur cum saepe veniam eaque libero blanditiis tempore!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut necessitatibus reprehenderit facere officiis soluta reiciendis eligendi, quidem laboriosam inventore accusamus aliquid eum iusto? Illum fuga sequi nam. Error ea nisi dolore? Et neque non, nisi dolore error quae distinctio, possimus quis fugiat iusto officia magni exercitationem nostrum impedit inventore molestias, quo ut explicabo qui eligendi harum. Accusantium, a. Ratione soluta itaque, laborum molestiae, voluptatibus excepturi sint incidunt nesciunt perspiciatis pariatur modi expedita quaerat eveniet vero? Eos dolore quae beatae corrupti! Quaerat, quis? Consectetur fugit placeat harum vel, distinctio quod, blanditiis sunt repellat, quasi unde consequatur magni. Nobis quasi provident blanditiis? ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, harum optio? Repellat adipisci, facere nobis neque consequatur, suscipit aperiam odio minus, explicabo expedita in libero dolorem reprehenderit laudantium quis iusto!</p>
+    </div>
+    <script>
+        $(window).scroll(function(){
+            console.log('page is scrolling');
+        })
+        $(window).resize(function(){
+            console.log('log is resizing window');
+        })
+
+    </script>
+    
+
+    
+</body>
+</html>

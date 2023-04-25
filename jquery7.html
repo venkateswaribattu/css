@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Element tag ul and li</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Welcome to Jquery</h1>
+    <p>Mobiles</p>
+    <ul>
+        <li>Somsong</li>
+
+        <li>redimi</li>
+        <li>Apple</li>
+    </ul>
+    <button>click here</button>
+    <script>
+        $('button').click(function(){
+            $('ul li:first').hide();
+        })
+    </script>
+    
+</body>
+</html>

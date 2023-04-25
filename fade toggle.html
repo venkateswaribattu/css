@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>fade toggle element</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Welcome to satyabama Fading Effect</h1>
+    <button>click</button><br><br>
+    <div id="div1" style="width:80px; height:80px; background:red; display:none"></div>
+    <div id="div2" style="width:80px; height:80px; background-color:green; display:none"></div>
+    <div id="div3" style="width:80px; height:80px; background-color:yellow; display:none"></div>
+    <script>
+        $('button').click(function(){
+            $('#div1').fadeToggle();
+            $('#div2').fadeToggle('slow');
+            $('#div3').fadeToggle(3000);
+        })
+    </script>
+    
+</body>
+</html>

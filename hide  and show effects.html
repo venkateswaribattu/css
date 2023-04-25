@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Hide and show Effects</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>
+        Welcome to hide and show effects
+    </h1>
+    <img src="bird2" alt=""><br>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <script>
+        $('#hide').click(function(){
+            $('img').hide(2000)
+        })
+        $('#show').click(function(){
+            $('img').show(2000)
+        })
+    </script>
+    
+</body>
+</html>

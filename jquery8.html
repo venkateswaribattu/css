@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>eElement tag ul and li</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Welcome to narayana Tech house</h1>
+    <p>Mobiles</p>
+    <ul>
+        <li>Somsong</li>
+        <li>Redmi</li>
+        <li>Apple</li>
+    </ul>
+    <ul>
+        <li>Lenove</li>
+        <li>Hp</li>
+        <li>Dell</li>
+    </ul>
+    <button>click me</button>
+    <script>
+        $('button').click(function(){
+            $('ul li:first-child').hide();
+        })
+    </script>
+    
+</body>
+</html>

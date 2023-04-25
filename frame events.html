@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Jquery events method</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <form>
+    <h1>Welcome to Satyabama Jquery Events</h1>
+    Name:<input type="text" name="fullname"><br><br>
+    Email:<input type="text" name="email"><br><br>
+    <button>Submit</button>
+    </form>
+    <script>
+        $('input').focus(function(){
+            $(this).css('background-color','yellow');
+        });
+        $('input').blur(function(){
+            $(this).css('background-color','green');
+        });
+        $('#sub').submit(function(){
+            alert('successfully submited');
+        });
+    </script>
+    
+</body>
+</html>

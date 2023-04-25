@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Jquery Event methods</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Welcome to Jquery Event methods</h1>
+    <button>click</button>
+    <script>
+        $('button').click(function(){
+            $('button').css('background-color','red')
+        })
+        $('button').dblclick(function(){
+            $('button').css('background-color','green')
+        })
+        $('button').mouseenter(function(){
+            $('button').css('background-color','yellow')
+        })
+        $('button').mouseleave(function(){
+            $('button').css('background-color','blue')
+        })
+    </script>
+    
+</body>
+</html>
